@@ -1,0 +1,21 @@
+{
+  "name": "hn_routing",
+  "version": "0.0.1",
+  "description": "Router and Route definitions",
+  "browserify": {
+    "transform": [
+      "coffeeify",
+      [
+        "jadeify",
+        {
+          "basedir": "node_modules/"
+        }
+      ]
+    ],
+    "extension": [
+      "coffee"
+    ]
+  },
+  "author": "aeksco@gmail.com",
+  "license": "MIT"
+}
